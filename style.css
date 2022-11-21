@@ -1,0 +1,91 @@
+*{
+    background-color: pink;
+    border: 30px;
+    border-radius: 35px dotted;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+
+.navigation{ 
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1.5rem 3.5rem;
+        background-color: var(--bg-color);
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+        color: black;
+      
+}
+
+nav h1 {
+    color: var(--primary-color);
+  }
+  
+  nav a {
+    color: var(--primary-color);
+    transition: var(--transition);
+  }
+  nav a:hover {
+    color: var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 1.9rem;
+  }
+  
+  nav ul li {
+    font-weight: var(--bold-font);
+  }
+
+  .hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 68.75rem;
+    margin: auto;
+    
+  }
+
+  .hero img {
+    height: 20rem;
+    width: 30rem;
+  }
+  
+  .bio {
+    width: 25rem;
+    padding: 0.625rem;
+    border-radius: 6px;
+    box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+    background-color: rgb(77, 3, 48);
+    color: rgb(255, 255, 255);
+  }
+  
+  .bio h1 {
+    margin-bottom: var(--bottom-margin);
+    background-color: rgb(77, 3, 48);
+  }
+  
+  .bio p {
+    line-height: var(--line-height);
+    padding: 0.3rem 0;
+    background-color: rgb(77, 3, 48);
+  }
+
+ .skill-set{
+   display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 68.75rem;
+    margin: auto;
+    padding-top: 40px 40px 150px 250px;
+     
+
+ }
